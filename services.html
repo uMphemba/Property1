@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Prime Management's affordable homes, rates and levies management, and eviction solutions.">
+  <title>Services &amp; Contact | Prime Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23090909'/%3E%3Cpath d='M10 35L32 16l22 19v17H39V38H25v14H10z' fill='none' stroke='%23D4AF37' stroke-width='5' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Prime Management home"><img src="assets/prime-logo.png" alt="Prime Management"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="services.html" aria-current="page">Services</a><a href="about.html">About Us</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero services-hero">
+      <div class="container"><span class="eyebrow">Property support, end to end</span><h1>Services &amp; Contact</h1><p>Three focused services. One dependable management partner.</p></div>
+    </section>
+
+    <section class="section detailed-services" aria-labelledby="detailed-services-title">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow eyebrow-dark">What we manage</span><h2 id="detailed-services-title">Our Expertise</h2></div><p>Every service is delivered with clear communication, transparent processes, and respect for all parties.</p></div>
+        <div class="detail-list">
+          <article id="affordable-homes" class="detail-item"><span class="detail-number">01</span><div class="detail-icon"><i class="fa-solid fa-house-chimney"></i></div><div><h3>Affordable Homes</h3><p>Connecting tenants with safe, well-managed, and budget-friendly housing options across South Africa.</p></div></article>
+          <article id="rates-levies" class="detail-item"><span class="detail-number">02</span><div class="detail-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div><div><h3>Rates &amp; Levies Management</h3><p>Handling municipal rates, body corporate levies, and payment tracking with full transparency.</p></div></article>
+          <article id="eviction-solutions" class="detail-item"><span class="detail-number">03</span><div class="detail-icon"><i class="fa-solid fa-scale-balanced"></i></div><div><h3>Eviction Solutions</h3><p>Providing lawful, compassionate eviction support and mediation to protect property owners’ rights while maintaining dignity for tenants.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="form-panel">
+          <span class="eyebrow eyebrow-dark">Tell us what you need</span>
+          <h2 id="contact-title">Contact Us</h2>
+          <form id="contact-form" novalidate>
+            <div class="field-row">
+              <div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Your full name"><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"><span class="field-error" aria-live="polite"></span></div>
+            </div>
+            <div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="6" required minlength="10" placeholder="How can we help?"></textarea><span class="field-error" aria-live="polite"></span></div>
+            <button class="button button-dark" type="submit">Send <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <aside class="contact-info" aria-label="Contact information">
+          <span class="eyebrow">Direct contact</span>
+          <h2>We’re ready when you are.</h2>
+          <p>Reach out for a quote, a question, or a practical next step.</p>
+          <div class="contact-block"><i class="fa-solid fa-phone"></i><div><span>Call Us</span><a href="tel:+27123456789">+27 123 456 789</a></div></div>
+          <div class="contact-block"><i class="fa-solid fa-envelope"></i><div><span>Email Us</span><a href="mailto:info@primemanagement.co.za">info@primemanagement.co.za</a></div></div>
+          <div class="contact-block"><i class="fa-solid fa-location-dot"></i><div><span>Visit Us</span><address>123 Main St, Cape Town</address></div></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><p>© 2022 Prime Management</p><div class="social-links" aria-label="Social media"><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></div></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
